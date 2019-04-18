@@ -4,13 +4,13 @@ import javafx.util.Builder;
 
 import java.util.Set;
 
-public class Staff {
+public class StaffName {
 
     private String staffFN, staffLN, staffID;
 
-    private Staff(){}
+    private StaffName(){}
 
-    private Staff(Builder builder){
+    private StaffName(Builder builder){
 
         this.staffFN = builder.staffFN;
         this.staffLN = builder.staffLN;
@@ -49,9 +49,9 @@ public class Staff {
             return this;
         }
 
-        public Staff build(){
+        public StaffName build(){
 
-            return new Staff (this);
+            return new StaffName (this);
         }
 
 

@@ -1,13 +1,13 @@
 package com.aashiq.Factory;
 
-import com.aashiq.Domain.Staff;
+import com.aashiq.Domain.StaffName;
 import com.aashiq.Util.Misc;
 
 public class StaffFactory {
 
-    public static Staff getStaff(String staffFN){
+    public static StaffName getStaff(String staffFN){
 
-        return new Staff.Builder().staffID(Misc.generateID()).staffFN(staffFN).build();
+        return new StaffName.Builder().staffID(Misc.generateID()).staffFN(staffFN).build();
     }
 
 }

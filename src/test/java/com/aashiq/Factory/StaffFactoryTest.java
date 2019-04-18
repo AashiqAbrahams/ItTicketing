@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import com.aashiq.Domain.Staff;
+import com.aashiq.Domain.StaffName;
 
 
 public class StaffFactoryTest {
@@ -13,7 +13,7 @@ public class StaffFactoryTest {
     public void getStaff(){
 
         String firstName = "Aashiq";
-        Staff fn = StaffFactory.getStaff(firstName);
+        StaffName fn = StaffFactory.getStaff(firstName);
         System.out.println(fn);
         Assert.assertNotNull(fn.getStaffID());
     }
