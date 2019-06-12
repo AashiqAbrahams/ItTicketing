@@ -6,21 +6,33 @@
       <change afterPath="$PROJECT_DIR$/../CH3Q1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CH3Q2/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CH3Q2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Issue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/AddressFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/EmailFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/JobRoleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffNameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/EmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/JobRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/StaffNameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/impl/AddressRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/impl/JobRoleRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/AddressFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/EmailFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffNameFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multithreading2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multithreading2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter2.1/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter2.1/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter2.2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter2.2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaProjects.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../collection/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../collection/.idea/encodings.xml" beforeDir="false" />
@@ -51,74 +63,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Util/Misc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffID.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -130,13 +86,39 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Util/Misc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Staff.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Email.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/AddressFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/EmailFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffNameFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/EmailFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/AddressFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffNameFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Factory/JobRoleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Domain/JobRole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/Implementation/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/IRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/JobRoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/impl/AddressRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/impl/JobRoleRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/EmailRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/NameRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aashiq/Repository/StaffNameRepository.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -195,7 +177,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aashiq" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ItTicketing" type="b2602c69:ProjectViewProjectNode" />
@@ -204,50 +186,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aashiq" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItTicketing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItTicketing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItTicketing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItTicketing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItTicketing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItTicketing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aashiq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItTicketing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItTicketing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aashiq" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555608334288" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557937875520" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -311,7 +265,17 @@
       <option name="presentableId" value="Default" />
       <updated>1554915245416</updated>
       <workItem from="1554915248435" duration="5106000" />
-      <workItem from="1555505710263" duration="1758000" />
+      <workItem from="1555505710263" duration="2408000" />
+      <workItem from="1556783458673" duration="613000" />
+      <workItem from="1557055918801" duration="98000" />
+      <workItem from="1557935467333" duration="363000" />
+      <workItem from="1558459288039" duration="168000" />
+      <workItem from="1558459616244" duration="1619000" />
+      <workItem from="1558636520646" duration="589000" />
+      <workItem from="1558638687737" duration="151000" />
+      <workItem from="1560273167481" duration="206000" />
+      <workItem from="1560273648521" duration="1136000" />
+      <workItem from="1560276068346" duration="4269000" />
     </task>
     <servers />
   </component>
@@ -321,12 +285,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6864000" />
+    <option name="totallyTimeSpent" value="16726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +298,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -343,8 +307,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32985386" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32244897" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32985386" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -364,17 +328,11 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Company.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Name.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="318">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -385,30 +343,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Util/Misc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aashiq/Factory/AddressFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="120">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aashiq/Factory/EmailFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Factory/EmailFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffNameFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Util/Misc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Factory/StaffNameFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Factory/AddressFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Factory/JobRoleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/JobRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -419,10 +491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Time.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -433,27 +505,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Department.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/aashiq/Factory/StaffFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Repository/IRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Repository/JobRoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/StaffID.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Repository/impl/AddressRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Repository/impl/JobRoleRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Domain/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Repository/AddressRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Repository/StaffNameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aashiq/Repository/EmailRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

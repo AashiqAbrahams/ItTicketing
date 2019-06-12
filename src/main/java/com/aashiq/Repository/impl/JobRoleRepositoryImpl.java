@@ -1,0 +1,62 @@
+package com.aashiq.Repository.impl;
+
+import com.aashiq.Domain.JobRole;
+import com.aashiq.Repository.JobRoleRepository;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class JobRoleRepositoryImpl implements JobRoleRepository {
+    private static JobRoleRepositoryImpl jobRoleRepository = null;
+    private Set<JobRole> jobRoles;
+
+
+    private JobRoleRepositoryImpl() {
+        this.jobRoles = new HashSet<>();
+    }
+
+    public static JobRoleRepositoryImpl getJobRoleRepository() {
+        if (jobRoleRepository == null) jobRoleRepository = new JobRoleRepositoryImpl();
+        return jobRoleRepository;
+    }
+
+    @Override
+    public JobRole create(JobRole jobRole) {
+        this.jobRoles.add(jobRole);
+        return jobRole;
+    }
+
+    @Override
+    public JobRole read(String jobRoleId) {
+        return search(jobRoleId);
+    }
+
+    @Override
+    public JobRole update(JobRole jobRole) {
+        JobRole jobRoleTemp = search(jobRole.getJobRoleId());
+        if (jobRoleTemp != null) {
+            jobRoles.remove(jobRoleTemp);
+            return create(jobRole);
+        }
+        return null;
+    }
+
+    @Override
+    public void delete(String jobRoleId) {
+        JobRole jobRoleDelete = search(jobRoleId);
+        if (jobRoleDelete != null) this.jobRoles.remove(jobRoleDelete);
+    }
+
+    private JobRole search(final String jobRoleId) {
+        for (JobRole jobRoleSearch : this.jobRoles) {
+            if (jobRoleSearch.getJobRoleId().equals(jobRoleId))
+                return jobRoleSearch;
+        }
+        return null;
+    }
+
+    @Override
+    public Set<JobRole> getAll() {
+        return this.jobRoles;
+    }
+}
